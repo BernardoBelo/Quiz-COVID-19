@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz Covid-19</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <div class="conteudo">
+            <div id="jogo" class="centroJustificado colunaFlexivel">
+                <div id="hud">
+                    <div class="itemHud">
+                        <p id="textoDeProgresso" class="prefixoHud">
+                            Questao
+                        </p>
+                        <div id="barraDeProgresso">
+                            <div id="barraCompletaDeProgresso"></div>
+                        </div>
+                    </div>
+                    <div class="itemHud">
+                        <p class="prefixoHud">
+                            Pontos
+                        </p>
+                        <h1 class="textoPrincipalHud" id="pontos">
+                            0
+                        </h1>
+                    </div>
+                </div>
+                <h1 id="questao">Qual a resposta para esta questão?</h1>
+                    <div class="conteudoDeEscolha">
+                        <p class="prefixoDeEscolha">A</p>
+                        <p class="textoDeEscolha" data-number="1">Escolha 1</p>
+                    </div>
+                    <div class="conteudoDeEscolha">
+                        <p class="prefixoDeEscolha">B</p>
+                        <p class="textoDeEscolha" data-number="2">Escolha 2</p>
+                    </div>
+                    <div class="conteudoDeEscolha">
+                        <p class="prefixoDeEscolha">C</p>
+                        <p class="textoDeEscolha" data-number="3">Escolha 3</p>
+                    </div>
+                    <div class="conteudoDeEscolha">
+                        <p class="prefixoDeEscolha">D</p>
+                        <p class="textoDeEscolha" data-number="4">Escolha 4</p>
+                    </div>
+            </div>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>

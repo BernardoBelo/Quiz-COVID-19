@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz COVID-19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteudo">
+        <div id="final" class="centroFlexivel colunaFlexivel">
+            <h1 id="pontuacaoFinal">0</h1>
+            <form class="formFinalDeConteudo">
+                <h2 id="textoFinal">Digite seu nome para salvar sua pontuação!</h2>
+                <input type="text" name="name" id="nomeDeUsuario" placeholder="Escreva seu nome">
+                <button class="botao" id="botaoDeSalvarPontuacao" type="submit" onclick="saveHighScore(event)" disabled>Salvar</button>
+            </form>
+            <a href="game.html" class="botao">Jogar Novamente</a>
+            <a href="index.html" class="botao">Menu Principal</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
